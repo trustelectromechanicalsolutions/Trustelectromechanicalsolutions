@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{SERVICE_NAME}} - Trust Electromechanical Solutions</title>
+    <link rel="icon" type="image/svg+xml" sizes="any" href="../img/EVA LOG-2 (1).png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../img/EVA LOG-2 (1).png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/EVA LOG-2 (1).png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../img/EVA LOG-2 (1).png">
+    <link rel="manifest" href="../site.webmanifest">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/service-pages.css">
+</head>
+<body class="service-{{SERVICE_SLUG}}">
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-top">
+                <div class="contact-info">
+                    <span class="phone">📞 +250 795 189 430 / +250 781 514 449</span>
+                </div>
+                <div class="header-social">
+                    <a href="https://www.facebook.com/TrustElectroMech/" class="header-social-icon" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://twitter.com/TrustElectroMech" class="header-social-icon" aria-label="X (formerly Twitter)" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-x-twitter"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/company/trust-electromechanical-solutions/" class="header-social-icon" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://www.instagram.com/trusteletromech/" class="header-social-icon" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <nav class="navbar">
+                <a href="../index.html" class="logo-button">
+                    <div class="logo">
+                        <img src="../img/EVA LOG-2 (1).jpg" alt="Trust Electromechanical Solutions Logo">
+                        <div class="logo-text">
+                            <h2>TRUST</h2>
+                            <p>Electromechanical Solutions Ltd</p>
+                        </div>
+                    </div>
+                </a>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="../index.html" class="nav-link">Home</a></li>
+                    <li><a href="../about.html" class="nav-link">About Us</a></li>
+                    <li class="dropdown">
+                        <a href="../services.html" class="nav-link">Services <span>▼</span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="../service-electrical.html">Electrical Services</a></li>
+                            <li><a href="../service-mechanical.html">Mechanical Services</a></li>
+                            <li><a href="../service-hvac.html">HVAC Services</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../contact.html" class="nav-link">Contact Us</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>{{SERVICE_NAME}}</h1>
+            <p>{{SERVICE_TAGLINE}}</p>
+        </div>
+    </section>
+
+    <!-- Service Detail Section -->
+    <section class="service-detail">
+        <div class="container">
+            <div class="service-detail-content">
+                <div class="service-detail-image">
+                    <img src="{{SERVICE_IMAGE}}" alt="{{SERVICE_NAME}} - Trust Electromechanical Solutions" class="image-placeholder">
+                </div>
+                <div class="service-detail-text">
+                    <h2>{{SERVICE_NAME}}</h2>
+                    <p>{{SERVICE_DESCRIPTION}}</p>
+                    <div class="service-features">
+                        {{SERVICE_FEATURES}}
+                    </div>
+                    <a href="../contact.html" class="btn-primary" style="margin-top: 20px; display: inline-block;">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-us" style="background-color: #f9f9f9; padding: 80px 0;">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Why Choose Us</span>
+                <h2>Why Choose Our {{SERVICE_NAME}} Services</h2>
+                <p>We are committed to delivering exceptional service and quality workmanship</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-box">
+                    <div class="feature-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Certified Technicians</h3>
+                    <p>Our team consists of highly trained and certified professionals with extensive experience in {{SERVICE_NAME}}.</p>
+                </div>
+                <div class="feature-box">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Quality Assurance</h3>
+                    <p>We use only high-quality materials and follow industry best practices to ensure long-lasting results.</p>
+                </div>
+                <div class="feature-box">
+                    <div class="feature-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>24/7 Availability</h3>
+                    <p>Emergency services available round the clock to address your urgent {{SERVICE_NAME}} needs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section" style="background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('{{SERVICE_IMAGE}}') no-repeat center center/cover; padding: 100px 0; color: white; text-align: center;">
+        <div class="container">
+            <h2>Ready to Get Started?</h2>
+            <p>Contact us today for professional {{SERVICE_NAME}} services you can trust.</p>
+            <div class="cta-buttons" style="margin-top: 30px;">
+                <a href="tel:+250795189430" class="btn-primary">Call Now</a>
+                <a href="../contact.html" class="btn-secondary">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Our Services</h3>
+                    <ul>
+                        <li><a href="../service-electrical.html">Electrical Services</a></li>
+                        <li><a href="../service-mechanical.html">Mechanical Services</a></li>
+                        <li><a href="../service-hvac.html">HVAC Services</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="../about.html">About Us</a></li>
+                        <li><a href="../services.html">Services</a></li>
+                        <li><a href="../contact.html">Contact Us</a></li>
+                        <li><a href="../index.html">Home</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="../contact.html">Contact Us</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#quality-safety.html">Quality & Safety</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=61583987307091" class="social-icon" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://twitter.com/TrustElectroMech" class="social-icon" aria-label="X (formerly Twitter)" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-x-twitter"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/company/trust-electromechanical-solutions/" class="social-icon" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://www.instagram.com/trusteletromech/" class="social-icon" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Trust Electromechanical Solutions Ltd. All Rights Reserved</p>
+                <div class="footer-links">
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+    <script src="../js/scroll-to-top.js"></script>
+</body>
+</html>

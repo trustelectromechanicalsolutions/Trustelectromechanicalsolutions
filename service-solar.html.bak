@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar Energy Solutions | Trust Electromechanical Solutions Ltd</title>
+    <link rel="icon" type="image/svg+xml" sizes="any" href="img/EVA LOG-2 (1).png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/service-pages.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="service-solar">
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-top">
+                <div class="contact-info">
+                    <span class="phone">📞 +250 795 189 430 / +250 781 514 449</span>
+                </div>
+                <div class="header-social">
+                    <a href="https://www.facebook.com/TrustElectroMech/" class="header-social-icon" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://twitter.com/TrustElectroMech" class="header-social-icon" aria-label="X (formerly Twitter)" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-x-twitter"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/company/trust-electromechanical-solutions/" class="header-social-icon" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://www.instagram.com/trusteletromech/" class="header-social-icon" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <nav class="navbar">
+                <a href="index.html" class="logo-button">
+                    <div class="logo">
+                        <img src="img/EVA LOG-2 (1).jpg" alt="Trust Electromechanical Solutions Logo">
+                        <div class="logo-text">
+                            <h2>TRUST</h2>
+                            <p>Electromechanical Solutions Ltd</p>
+                        </div>
+                    </div>
+                </a>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About Us</a></li>
+                    <li class="dropdown">
+                        <a href="services.html" class="nav-link">Services <span>▼</span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="service-electrical.html">Electrical Services</a></li>
+                            <li><a href="service-mechanical.html">Mechanical Services</a></li>
+                            <li><a href="service-hvac.html">HVAC Services</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html" class="nav-link">Contact Us</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header with Hero Introduction -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Professional Solar Energy Solutions</h1>
+            <p class="hero-intro">Harness the power of the sun with our comprehensive solar energy solutions. From residential to commercial installations, we provide reliable and efficient solar power systems tailored to your energy needs.</p>
+        </div>
+    </section>
+
+    <!-- Service Overview -->
+    <section class="service-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Service Overview</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="service-overview">
+                <div class="service-image">
+                    <img src="img/solar main.jpg" alt="Professional Solar Installation" class="image-placeholder">
+                </div>
+                <div class="service-description">
+                    <p>At Trust Electromechanical Solutions, we are committed to providing sustainable energy solutions through professional solar power systems. Our team of certified solar energy experts designs and installs high-quality solar solutions that help reduce energy costs and environmental impact. We handle everything from initial consultation and system design to installation and maintenance, ensuring a seamless transition to clean, renewable energy.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Offered -->
+    <section class="service-section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Solar Services</h2>
+                <div class="section-divider"></div>
+                <p>Comprehensive solar energy solutions for all your needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Residential Solar Systems</h3>
+                    <ul>
+                        <li>Rooftop solar panel installation</li>
+                        <li>Solar water heating systems</li>
+                        <li>Battery storage solutions</li>
+                        <li>Net metering setup</li>
+                        <li>Solar system maintenance</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <h3>Commercial Solar Solutions</h3>
+                    <ul>
+                        <li>Commercial solar panel installation</li>
+                        <li>Solar carport systems</li>
+                        <li>Large-scale solar farms</li>
+                        <li>Energy management systems</li>
+                        <li>Solar for businesses and industries</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <h3>Specialized Services</h3>
+                    <ul>
+                        <li>Solar system design and engineering</li>
+                        <li>Energy efficiency audits</li>
+                        <li>Government incentive assistance</li>
+                        <li>System performance monitoring</li>
+                        <li>Emergency solar repair services</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-choose-us">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Choose Our Solar Services</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="features-grid">
+                <div class="feature">
+                    <i class="fas fa-solar-panel"></i>
+                    <h3>Expert Installation</h3>
+                    <p>Our certified technicians have extensive experience in solar panel installation, ensuring your system is optimized for maximum efficiency and performance.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Sustainable Solutions</h3>
+                    <p>We're committed to providing environmentally friendly energy solutions that reduce your carbon footprint and energy costs.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Quality Assurance</h3>
+                    <p>We use only high-quality, industry-leading solar components and provide comprehensive warranties on all our installations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Switch to Solar Energy?</h2>
+                <p>Contact us today for a free consultation and discover how much you can save with solar power.</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn btn-primary">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Our Services</h3>
+                    <ul>
+                        <li><a href="service-electrical.html">Electrical Services</a></li>
+                        <li><a href="service-mechanical.html">Mechanical Services</a></li>
+                        <li><a href="service-hvac.html">HVAC Services</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="index.html">Home</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="quality-safety.html">Quality & Safety</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=61583987307091" class="social-icon" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://twitter.com/TrustElectroMech" class="social-icon" aria-label="X (formerly Twitter)" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-x-twitter"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/company/trust-electromechanical-solutions/" class="social-icon" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://www.instagram.com/trusteletromech/" class="social-icon" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Trust Electromechanical Solutions Ltd. All Rights Reserved</p>
+                <div class="footer-links">
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="js/scroll-to-top.js"></script>
+</body>
+</html>

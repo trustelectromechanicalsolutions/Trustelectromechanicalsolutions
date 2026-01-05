@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trust Electromechanical Solutions Ltd</title>
+    <link rel="icon" type="image/svg+xml" sizes="any" href="img/EVA LOG-2 (1).png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/EVA LOG-2 (1).png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/EVA LOG-2 (1).png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/EVA LOG-2 (1).png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-top">
+                <div class="contact-info">
+                    <span class="phone">📞 +250 795 189 430 / +250 781 514 449</span>
+                </div>
+                <div class="header-social">
+                    <a href="https://www.facebook.com/TrustElectroMech/" class="header-social-icon" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://twitter.com/TrustElectroMech" class="header-social-icon" aria-label="X (formerly Twitter)" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-x-twitter"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/company/trust-electromechanical-solutions/" class="header-social-icon" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://www.instagram.com/trustelectromechanicalsolution/" class="header-social-icon" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <nav class="navbar">
+                <a href="index.html" class="logo-button">
+                    <div class="logo">
+                        <img src="img/EVA LOG-2 (1).jpg" alt="Trust Electromechanical Solutions Logo">
+                        <div class="logo-text">
+                            <h2>TRUST</h2>
+                            <p>Electromechanical Solutions Ltd</p>
+                        </div>
+                    </div>
+                </a>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About Us</a></li>
+                    <li class="dropdown">
+                        <a href="services.html" class="nav-link">Services <span>▼</span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="service-electrical.html">Electrical Services</a></li>
+                            <li><a href="service-mechanical.html">Mechanical Services</a></li>
+                            <li><a href="service-hvac.html">HVAC Services</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html" class="nav-link">Contact Us</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>REQUEST A QUOTE</h1>
+            <h2>Trust Electromechanical Solutions</h2>
+            <p>We provide the best maintenance service with top notch proficiency and customer satisfaction in the Rwanda region.</p>
+            <a href="contact.html" class="btn-primary">Contact Us</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>Trust Electromechanical Solutions</h2>
+                <p class="subtitle">We provide innovative Service Solutions for sustainable progress.</p>
+            </div>
+            <div class="about-carousel">
+                <!-- Slide 1 -->
+                <div class="about-slide active">
+                    <div class="about-image">
+                        <img src="img/about 1.jpg" alt="Trust Electromechanical Solutions - About Us Slide 1" class="image-placeholder">
+                        <div class="slide-overlay">
+                            <div class="slide-content">
+                                <p>Trust Electromechanical Solutions positions itself as a trusted name in the electromechanical sector in the Rwanda region. Accurately gauging the direction and rate of development in its chosen areas of activities, Trust Electromechanical Solutions has systematically developed considerable trust and goodwill among our customers in the Electromechanical contracting, installation and maintenance sectors.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Slide 2 -->
+                <div class="about-slide">
+                    <div class="about-image">
+                        <img src="img/about 2.jpg" alt="Trust Electromechanical Solutions - About Us Slide 2" class="image-placeholder">
+                        <div class="slide-overlay">
+                            <div class="slide-content">
+                                <p>Trust Electromechanical Solutions specializes in maintenance services for various sectors including hospitals, hotels, shopping malls, residential complexes, and private commercial buildings, villas, and factories across the Rwanda region.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Slide 3 -->
+                <div class="about-slide">
+                    <div class="about-image">
+                        <img src="img/about 4.webp" alt="Trust Electromechanical Solutions - About Us Slide 3" class="image-placeholder">
+                        <div class="slide-overlay">
+                            <div class="slide-content">
+                                <p>Trust Electromechanical Solutions offers a wide range of services including HVAC, Air-conditioning, Electrical, Plumbing, and General maintenance with proven track records of excellent workmanship and dedicated customer satisfaction.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Navigation Arrows -->
+                <button class="carousel-arrow prev" aria-label="Previous slide">❮</button>
+                <button class="carousel-arrow next" aria-label="Next slide">❯</button>
+                
+                <!-- Indicators -->
+                <div class="carousel-indicators">
+                    <button class="indicator active" aria-label="Slide 1"></button>
+                    <button class="indicator" aria-label="Slide 2"></button>
+                    <button class="indicator" aria-label="Slide 3"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-icon"><i class="fas fa-history"></i></div>
+                    <div class="stat-number" data-target="37">0</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon"><i class="fas fa-bolt"></i></div>
+                    <div class="stat-number" data-target="100">0</div>
+                    <div class="stat-label">% Response Rate</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon"><i class="fas fa-phone-alt"></i></div>
+                    <div class="stat-number" data-target="5000">0</div>
+                    <div class="stat-label">+ Callouts Attended</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon"><i class="fas fa-clipboard-check"></i></div>
+                    <div class="stat-number" data-target="10000">0</div>
+                    <div class="stat-label">+ Work Orders Completed</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-us">
+        <div class="container">
+            <div class="section-header">
+                <h2>WHY CHOOSE US?</h2>
+                <p class="subtitle">TRUST ELECTROMECHANICAL SOLUTIONS LTD a trusted name developed through the unwavering commitment to quality and customer satisfaction has forged a wide array of engineering activities for the Rwanda market.</p>
+            </div>
+            <div class="vision-mission">
+                <div class="vm-card">
+                    <h3>VISION</h3>
+                    <p>To be the market leader for specialist facilities and electromechanical services in the region.</p>
+                </div>
+                <div class="vm-card">
+                    <h3>MISSION</h3>
+                    <p>To ensure stellar client satisfaction by providing an extraordinary service, which is consistently delivered by our trusted, talented team through unique and sustainable solution.</p>
+                </div>
+            </div>
+            <div class="values-grid">
+                <div class="value-card">
+                    <div class="value-icon"><i class="fas fa-money-bill-wave"></i></div>
+                    <h4>COST EFFECTIVE</h4>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon"><i class="fas fa-star"></i></div>
+                    <h4>QUALITY</h4>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon"><i class="fas fa-lightbulb"></i></div>
+                    <h4>INNOVATIVE</h4>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon"><i class="fas fa-shield-alt"></i></div>
+                    <h4>RELIABILITY</h4>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon"><i class="fas fa-handshake"></i></div>
+                    <h4>RELATIONSHIP</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>OUR MAJOR ACTIVITIES</h2>
+                <p class="subtitle">Our diverse expertise in various fields enable the customers to meet their needs</p>
+            </div>
+            <div class="services-wrapper">
+                <div class="services-grid" id="servicesGrid">
+                    <!-- Electrical Services -->
+
+                    <a href="service-electrical-installation.html" class="service-card" data-category="electrical">
+                        <div class="service-image">
+                            <img src="img/eletric image.webp" alt="Electrical Installation & Repair Service" class="image-placeholder">
+                        </div>
+                        <div class="service-content">
+                            <h3>Electrical Installation & Repair</h3>
+                            <p>Complete installation and repair services for all electrical systems, ensuring code compliance and safety standards.</p>
+                        </div>
+                    </a>
+
+                    <a href="service-preventive-maintenance.html" class="service-card" data-category="electrical">
+                        <div class="service-image">
+                            <img src="img/electric maint.jpeg" alt="Preventive Electrical Maintenance Service" class="image-placeholder">
+                        </div>
+                        <div class="service-content">
+                            <h3>Preventive Electrical Maintenance</h3>
+                            <p>Regular maintenance programs to prevent electrical failures, reduce downtime, and extend equipment lifespan.</p>
+                        </div>
+                    </a>
+
+                    <a href="service-panel-wiring-lighting.html" class="service-card" data-category="electrical">
+                        <div class="service-image">
+                            <img src="img/panel board.jpg" alt="Panel Boards, Wiring & Lighting Service" class="image-placeholder">
+                        </div>
+                        <div class="service-content">
+                            <h3>Panel Boards, Wiring & Lighting</h3>
+                            <p>Professional installation and maintenance of electrical panels, complete wiring systems, and modern lighting solutions.</p>
+                        </div>
+                    </a>
+
+                    <a href="service-generator.html" class="service-card" data-category="electrical">
+                        <div class="service-image">
+                            <img src="img/generator insta.jpg" alt="Electrical Installation & Repair Service" class="image-placeholder">
+                        </div>
+                        <div class="service-content">
+                            <h3>Generator Installation & Maintenance</h3>
+                            <p>Expert generator installation, regular maintenance, and emergency repair services to ensure reliable backup power.</p>
+                        </div>
+                    </a>
+
+                    <a href="service-solar.html" class="service-card" data-category="electrical">
+                        <div class="service-image">
+                            <img src="img/solar main.jpg" alt="Electrical Installation & Repair Service" class="image-placeholder">
+                        </div>
+                        <div class="service-content">
+                            <h3>Solar System Maintenance</h3>
+                            <p>Comprehensive maintenance services for solar power systems to maximize efficiency and ensure optimal performance.</p>
+                        </div>
+                    </a>
+                
+
+                    <!-- Mechanical Services -->
+                    <a href="service-pump-maintenance.html" class="service-card" data-category="mechanical">
+                        <div class="service-image">
+                            <img src="img/pump ins.webp" alt="Electrical Installation & Repair Service" class="image-placeholder">
+                        </div>
+                        <div class="service-content">
+                            <h3>Pumps Installation & Maintenance</h3>
+                            <p>Professional installation, regular maintenance, and repair services for all types of pumps including water pumps, booster pumps, and industrial pumps.</p>
+                        </div>
+                    </a>
+
+                    <a href="service-motor-drives.html" class="service-card" data-category="mechanical">
+                        <div class="service-image">
+                            <img src="img/motor drives.jpg" alt="Electrical Installation & Repair Service" class="image-placeholder">
+                        </div>
+                        <div class="service-content">
+                            <h3>Motors & Drives Repair/Servicing</h3>
+                            <p>Expert repair and servicing of electric motors, variable frequency drives (VFDs), and motor control systems to ensure efficient operation.</p>
+                        </div>
+                    </a>
+
+                    <a href="service-plumbing-water.html" class="service-card" data-category="mechanical">
+                        <div class="service-image">
+                            <img src="img/plumbing and water.jpg" alt="Electrical Installation & Repair Service" class="image-placeholder">
+                        </div>
+                        <div class="service-content">
+                            <h3>Plumbing & Water Systems</h3>
+                            <p>Complete plumbing services including installation, repair, and maintenance of water supply systems, drainage, fixtures, and water treatment systems.</p>
+                        </div>
+                    </a>
+
+                    <a href="service-fire-protection.html" class="service-card" data-category="mechanical">
+                        <div class="service-image">
+                            <img src="img/firefighter system.jpg" alt="Electrical Installation & Repair Service" class="image-placeholder">
+                        </div>
+                        <div class="service-content">
+                            <h3>Firefighting Systems Maintenance</h3>
+                            <p>Comprehensive maintenance and testing of firefighting systems including sprinklers, fire pumps, hydrants, and fire suppression equipment.</p>
+                        </div>
+                    </a>
+                    <!-- HVAC Services -->
+
+                    <a href="service-ac-installation.html" class="service-card" data-category="hvac">
+                        <div class="service-image">
+                            <img src="img/air condition.jpg" alt="Electrical Installation & Repair Service" class="image-placeholder">
+                        </div>
+                        <div class="service-content">
+                            <h3>Air Conditioner Installation</h3>
+                            <p>Professional installation of split units, central AC systems, and ducted air conditioning for residential, commercial, and industrial properties.</p>
+                        </div>
+                    </a>
+
+                    <a href="service-ac-servicing.html" class="service-card" data-category="hvac">
+                        <div class="service-image">
+                            <img src="img/ac servicing.jpg" alt="Electrical Installation & Repair Service" class="image-placeholder">
+                        </div>
+                        <div class="service-content">
+                            <h3>AC Servicing & Preventive Maintenance</h3>
+                            <p>Regular servicing, cleaning, and preventive maintenance programs to ensure optimal performance, energy efficiency, and extended equipment lifespan.</p>
+                        </div>
+                    </a>
+
+                    <a href="service-chiller-maintenance.html" class="service-card" data-category="hvac">
+                        <div class="service-image">
+                            <img src="img/chiller or split.jpg" alt="Electrical Installation & Repair Service" class="image-placeholder">
+                        </div>
+                        <div class="service-content">
+                            <h3>Chiller / Split Unit Maintenance</h3>
+                            <p>Specialized maintenance services for chillers, split units, and packaged AC systems including filter cleaning, refrigerant checks, and system optimization.</p>
+                        </div>
+                    </a>
+
+                    <a href="service-ventilation-systems.html" class="service-card" data-category="hvac">
+                        <div class="service-image">
+                            <img src="img/ventillation.webp" alt="Electrical Installation & Repair Service" class="image-placeholder">
+                        </div>
+                        <div class="service-content">
+                            <h3>Ventilation Systems</h3>
+                            <p>Complete installation, maintenance, and repair of ventilation systems including exhaust fans, air handling units (AHUs), and fresh air systems for proper air circulation.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="load-more-container">
+                    <button class="load-more-btn" id="loadMoreBtn">Load More Services</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Quality Assurance Section -->
+    <section class="quality">
+        <div class="container">
+            <div class="quality-content">
+                <div class="quality-text">
+                    <h2>In quality assurance a constant effort is made to enhance the quality practices in the organization.</h2>
+                    <p>The success and reputation of Trust Electromechanical Solutions are directly related to the quality of our employees, who serve as the company's backbone in day-to-day operations. Our knowledgeable and experienced personnel collaborated as a team to help Trust Electromechanical Solutions attain a high quality of performance.</p>
+                </div>
+                <div class="quality-image">
+                    <img src="img/in quality.webp" alt="Quality Assurance - Trust Electromechanical Solutions" class="image-placeholder">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>CONTACT US</h2>
+                <p class="subtitle">Get in touch with us for your maintenance needs</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-form">
+                    <div id="formSuccessMessage" class="form-success-message">
+                        ✓ Thank you for your request! We will contact you soon.
+                    </div>
+
+                    <!--form contact us---->
+
+                    <form id="quoteForm" action="https://api.web3forms.com/submit" method="post">
+                        <input type="hidden" name="access_key" value="680af711-65cc-417f-aa4d-9b0b56274921">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" name="phone" placeholder="Your Phone" required>
+                        </div>
+                        <div class="form-group">
+                            <select name="service" required>
+                                <option value="">Select Service</option>
+                                <option value="electrical">Electrical Services</option>
+                                <option value="mechanical">Mechanical Services</option>
+                                <option value="hvac">HVAC Services</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Send Message</button>
+                    </form>
+                    
+                </div>
+
+
+                <div class="contact-info">
+                    <div class="contact-info-item">
+                        <h3>📍 Location</h3>
+                        <p>Rwanda - Kigali - Gasabo - Remera/Ndera<br>KG 52Ave</p>
+                        <h3>📞 Tel</h3>
+                        <p>+250 795 189 430<br>+250 781 514 449 (Personal)</p>
+                        <h3>💬 Business WhatsApp</h3>
+                        <p>+250 785 189 430</p>
+                        <h3>✉️ Email</h3>
+                        <p>trustelectromechanical@gmail.com</p>
+                        <h3>🕒 Working Hours</h3>
+                        <p>MON to SAT: 8AM - 5PM<br>SUN: Closed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Our Services</h3>
+                    <ul>
+                        <li><a href="service-electrical.html">Electrical Services</a></li>
+                        <li><a href="service-mechanical.html">Mechanical Services</a></li>
+                        <li><a href="service-hvac.html">HVAC Services</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="index.html">Home</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="quality-safety.html">Quality & Safety</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=61583987307091" class="social-icon" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://x.com/NtirivamundaE" class="social-icon" aria-label="X (formerly Twitter)" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-x-twitter"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/trust-electromechanical-solution-ltd-285b643a2/" class="social-icon" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://www.instagram.com/trustelectromechanicalsolution/" class="social-icon" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Trust Electromechanical Solutions Ltd. All Rights Reserved</p>
+                <div class="footer-links">
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

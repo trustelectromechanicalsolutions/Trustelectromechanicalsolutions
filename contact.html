@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Trust Electromechanical Solutions Ltd</title>
+    <link rel="icon" type="image/svg+xml" sizes="any" href="img/EVA LOG-2 (1).png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/EVA LOG-2 (1).png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/EVA LOG-2 (1).png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/EVA LOG-2 (1).png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-top">
+                <div class="contact-info">
+                    <span class="phone">📞 +250 795 189 430 / +250 781 514 449</span>
+                </div>
+                <div class="header-social">
+                    <a href="https://www.facebook.com/profile.php?id=61583987307091" class="header-social-icon" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://x.com/NtirivamundaE" class="header-social-icon" aria-label="X (formerly Twitter)" target="_blank" rel="noopener noreferrer">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="opacity: 0.8; transition: all 0.3s ease; color: white; vertical-align: middle; font-size: 16px;"><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932L19.61 1.153h-.709zM17.61 20.644h2.039L6.486 3.24H4.298L17.61 20.645z" fill="currentColor"/></svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/trust-electromechanical-solution-ltd-285b643a2/" class="header-social-icon" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://www.instagram.com/trustelectromechanicalsolution/" class="header-social-icon" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <nav class="navbar">
+                <a href="index.html" class="logo-button">
+                    <div class="logo">
+                        <img src="img/EVA LOG-2 (1).jpg" alt="Trust Electromechanical Solutions Logo">
+                        <div class="logo-text">
+                            <h2>TRUST</h2>
+                            <p>Electromechanical Solutions Ltd</p>
+                        </div>
+                    </div>
+                </a>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About Us</a></li>
+                    <li class="dropdown">
+                        <a href="services.html" class="nav-link">Services <span>▼</span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="service-electrical.html">Electrical Services</a></li>
+                            <li><a href="service-mechanical.html">Mechanical Services</a></li>
+                            <li><a href="service-hvac.html">HVAC Services</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html" class="nav-link">Contact Us</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header with Background -->
+    <section class="page-header">
+        <div class="header-overlay"></div>
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>Get in touch with us for your maintenance needs</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>CONTACT US</h2>
+                <p class="subtitle">Get in touch with us for your maintenance needs</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-form">
+                    <div id="formSuccessMessage" class="form-success-message">
+                        ✓ Thank you for your request! We will contact you soon.
+                    </div>
+                    <form id="quoteForm" action="https://api.web3forms.com/submit" method="post">
+                        <input type="hidden" name="access_key" value="680af711-65cc-417f-aa4d-9b0b56274921">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Your Phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <select name="service" required>
+                                <option value="">Select Service</option>
+                                <option value="electrical">Electrical Services</option>
+                                <option value="mechanical">Mechanical Services</option>
+                                <option value="hvac">HVAC Services</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-info-item">
+                        <h3>📍 Location</h3>
+                        <p>Rwanda - Kigali - Gasabo - Remera/Ndera<br>KG 52Ave</p>
+                        <h3>📞 Tel</h3>
+                        <p>+250 795 189 430<br>+250 781 514 449 (Personal)</p>
+                        <h3>💬 Business WhatsApp</h3>
+                        <p>+250 785 189 430</p>
+                        <h3>✉️ Email</h3>
+                        <p>trustelectromechanical@gmail.com</p>
+                        <h3>🕒 Working Hours</h3>
+                        <p>MON to SAT: 8AM - 5PM<br>SUN: Closed</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Map Section -->
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.497348317395!2d30.123456!3d-1.9441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca4258ed8e797%3A0x5487c5d5e0a3f3b3!2sRemera%2FNdera%2C%20Kigali%2C%20Rwanda!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus" 
+                    width="100%" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="Trust Electromechanical Solutions Location - Rwanda - Kigali - Gasabo - Remera/Ndera KG 52Ave">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Our Services</h3>
+                    <ul>
+                        <li><a href="service-electrical.html">Electrical Services</a></li>
+                        <li><a href="service-mechanical.html">Mechanical Services</a></li>
+                        <li><a href="service-hvac.html">HVAC Services</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="index.html">Home</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="quality-safety.html">Quality & Safety</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=61583987307091" class="social-icon" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://x.com/NtirivamundaE" class="social-icon" aria-label="X (formerly Twitter)" target="_blank" rel="noopener noreferrer">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="opacity: 0.8; transition: all 0.3s ease; color: white; vertical-align: middle; font-size: 16px;"><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932L19.61 1.153h-.709zM17.61 20.644h2.039L6.486 3.24H4.298L17.61 20.645z" fill="currentColor"/></svg>
+                        </a>
+                        <a href="https://www.linkedin.com/in/trust-electromechanical-solution-ltd-285b643a2/" class="social-icon" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://www.instagram.com/trustelectromechanicalsolution/" class="social-icon" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Trust Electromechanical Solutions Ltd. All Rights Reserved</p>
+                <div class="footer-links">
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preventive Electrical Maintenance | Trust Electromechanical Solutions Ltd</title>
+    <link rel="icon" type="image/svg+xml" sizes="any" href="img/EVA LOG-2 (1).png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/service-pages.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="service-electrical">
+    <!-- Header (Same as other pages) -->
+    <header class="header">
+        <div class="container">
+            <div class="header-top">
+                <div class="contact-info">
+                    <span class="phone">📞 +250 795 189 430 / +250 781 514 449</span>
+                </div>
+                <div class="header-social">
+                    <a href="https://www.facebook.com/TrustElectroMech/" class="header-social-icon" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://twitter.com/TrustElectroMech" class="header-social-icon" aria-label="X (formerly Twitter)" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-x-twitter"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/company/trust-electromechanical-solutions/" class="header-social-icon" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://www.instagram.com/trusteletromech/" class="header-social-icon" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <nav class="navbar">
+                <a href="index.html" class="logo-button">
+                    <div class="logo">
+                        <img src="img/EVA LOG-2 (1).jpg" alt="Trust Electromechanical Solutions Logo">
+                        <div class="logo-text">
+                            <h2>TRUST</h2>
+                            <p>Electromechanical Solutions Ltd</p>
+                        </div>
+                    </div>
+                </a>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About Us</a></li>
+                    <li class="dropdown">
+                        <a href="services.html" class="nav-link">Services <span>▼</span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="service-electrical.html">Electrical Services</a></li>
+                            <li><a href="service-mechanical.html">Mechanical Services</a></li>
+                            <li><a href="service-hvac.html">HVAC Services</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html" class="nav-link">Contact Us</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header with Hero Introduction -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Preventive Electrical Maintenance</h1>
+            <p class="hero-intro">Proactive maintenance solutions to prevent electrical failures, extend equipment lifespan, and ensure uninterrupted power for your home or business in Rwanda.</p>
+        </div>
+    </section>
+
+    <!-- Service Overview -->
+    <section class="service-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Service Overview</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="service-overview">
+                <div class="service-image">
+                    <img src="img/electric maint.jpeg" alt="Preventive Electrical Maintenance" class="image-placeholder">
+                </div>
+                <div class="service-description">
+                    <p>At Trust Electromechanical Solutions, our preventive maintenance programs are designed to identify and address potential electrical issues before they lead to costly downtime or safety hazards. Our certified technicians perform thorough inspections, testing, and maintenance to keep your electrical systems operating at peak efficiency while complying with all Rwandan safety standards.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Offered -->
+    <section class="service-section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Maintenance Services</h2>
+                <div class="section-divider"></div>
+                <p>Comprehensive maintenance programs tailored to your needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Routine Inspections</h3>
+                    <ul>
+                        <li>Thermal imaging of electrical panels</li>
+                        <li>Circuit breaker testing</li>
+                        <li>Voltage and current measurements</li>
+                        <li>Connection tightening</li>
+                        <li>Insulation resistance testing</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <h3>Predictive Maintenance</h3>
+                    <ul>
+                        <li>Infrared thermography</li>
+                        <li>Power quality analysis</li>
+                        <li>Harmonic analysis</li>
+                        <li>Motor current analysis</li>
+                        <li>Load bank testing</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <h3>Corrective Actions</h3>
+                    <ul>
+                        <li>Component replacement</li>
+                        <li>Wiring repairs</li>
+                        <li>Panel upgrades</li>
+                        <li>Grounding system maintenance</li>
+                        <li>Emergency repairs</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Maintenance Programs -->
+    <section class="maintenance-programs">
+        <div class="container">
+            <h2>Our Maintenance Programs</h2>
+            <div class="programs-grid">
+                <div class="program-card">
+                    <h3>Basic Maintenance</h3>
+                    <ul>
+                        <li>Visual inspection of electrical panels</li>
+                        <li>Thermal imaging of connections</li>
+                        <li>Circuit breaker testing</li>
+                        <li>Emergency lighting check</li>
+                    </ul>
+                </div>
+                <div class="program-card featured">
+                    <h3>Premium Maintenance</h3>
+                    <ul>
+                        <li>All Basic services</li>
+                        <li>Load testing</li>
+                        <li>Power quality analysis</li>
+                        <li>Generator maintenance</li>
+                        <li>Priority emergency response</li>
+                    </ul>
+                </div>
+                <div class="program-card">
+                    <h3>Enterprise Solution</h3>
+                    <ul>
+                        <li>All Premium services</li>
+                        <li>24/7 monitoring</li>
+                        <li>Quarterly detailed reports</li>
+                        <li>Dedicated account manager</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Safety & Compliance Section -->
+    <section class="safety-section">
+        <div class="container">
+            <div class="safety-content">
+                <div class="safety-text">
+                    <h2>Safety & Compliance</h2>
+                    <p>At Trust Electromechanical Solutions, we maintain the highest standards of safety and regulatory compliance. Our preventive maintenance programs are designed to ensure your electrical systems meet or exceed all relevant Rwandan and international standards.</p>
+
+                    <ul class="safety-measures">
+                        <li><span>Rwanda Utility Regulatory Authority (RURA) standards</span></li>
+                        <li><span>International Electrotechnical Commission (IEC) standards</span></li>
+                        <li><span>Occupational Safety and Health Administration (OSHA) guidelines</span></li>
+                        <li><span>National Institute of Standards and Technology (NIST) recommendations</span></li>
+                        <li><span>Local building and electrical codes</span></li>
+                        <li><span>Regular safety training for all maintenance teams</span></li>
+                    </ul>
+                </div>
+                <div class="safety-image">
+                    <img src="img/safety-compliance.jpg" alt="Safety and Compliance - Preventive Maintenance" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits -->
+    <section class="benefits">
+        <div class="container">
+            <div class="section-header">
+                <h2>Benefits of Preventive Maintenance</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="benefits-grid">
+                <div class="benefit">
+                    <div class="benefit-icon">
+                        <i class="fas fa-money-bill-wave"></i>
+                    </div>
+                    <h3>Cost Savings</h3>
+                    <p>Prevent costly emergency repairs and extend equipment lifespan by up to 30%.</p>
+                </div>
+                <div class="benefit">
+                    <div class="benefit-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Improved Efficiency</h3>
+                    <p>Maintain optimal system performance and reduce energy consumption.</p>
+                </div>
+                <div class="benefit">
+                    <div class="benefit-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Enhanced Safety</h3>
+                    <p>Identify and address potential hazards before they cause accidents.</p>
+                </div>
+                <div class="benefit">
+                    <div class="benefit-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Minimized Downtime</h3>
+                    <p>Avoid unexpected breakdowns that can disrupt your operations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Don't Wait for an Electrical Failure</h2>
+                <p>Protect your property and ensure uninterrupted operations with our professional preventive maintenance services. Contact us today to schedule your maintenance plan.</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn btn-primary">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (Same as other pages) -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Our Services</h3>
+                    <ul>
+                        <li><a href="service-electrical.html">Electrical Services</a></li>
+                        <li><a href="service-mechanical.html">Mechanical Services</a></li>
+                        <li><a href="service-hvac.html">HVAC Services</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="index.html">Home</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="quality-safety.html">Quality & Safety</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=61583987307091" class="social-icon" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://twitter.com/TrustElectroMech" class="social-icon" aria-label="X (formerly Twitter)" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-x-twitter"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/company/trust-electromechanical-solutions/" class="social-icon" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://www.instagram.com/trusteletromech/" class="social-icon" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Trust Electromechanical Solutions Ltd. All Rights Reserved</p>
+                <div class="footer-links">
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="js/scroll-to-top.js"></script>
+</body>
+</html>

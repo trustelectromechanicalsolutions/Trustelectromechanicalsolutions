@@ -1,0 +1,68 @@
+<svg width="300" height="150" viewBox="0 0 300 150" xmlns="http://www.w3.org/2000/svg">
+  <!-- Transparent background - no fill -->
+  
+  <!-- Top Arc and Horizontal Lines (White) -->
+  <path d="M 50 50 Q 150 30 250 50" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+  <line x1="50" y1="50" x2="30" y2="50" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+  <line x1="250" y1="50" x2="270" y2="50" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Left Connection Points (White) -->
+  <line x1="30" y1="50" x2="30" y2="65" stroke="#FFFFFF" stroke-width="2.5"/>
+  <line x1="30" y1="65" x2="30" y2="80" stroke="#FFFFFF" stroke-width="2.5"/>
+  <line x1="30" y1="80" x2="30" y2="95" stroke="#FFFFFF" stroke-width="2.5"/>
+  <circle cx="30" cy="65" r="3" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="30" cy="80" r="3" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="30" cy="95" r="3" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Right Connection Points (White) -->
+  <line x1="270" y1="50" x2="270" y2="65" stroke="#FFFFFF" stroke-width="2.5"/>
+  <line x1="270" y1="65" x2="270" y2="80" stroke="#FFFFFF" stroke-width="2.5"/>
+  <line x1="270" y1="80" x2="270" y2="95" stroke="#FFFFFF" stroke-width="2.5"/>
+  <circle cx="270" cy="65" r="3" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="270" cy="80" r="3" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="270" cy="95" r="3" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Central Gear (Light Blue #4FC3F7) -->
+  <g transform="translate(150, 75)">
+    <!-- Outer gear circle -->
+    <circle r="35" fill="#4FC3F7"/>
+    
+    <!-- Inner circle (hole) -->
+    <circle r="20" fill="none"/>
+    
+    <!-- Gear Teeth - 16 teeth total -->
+    <g>
+      <!-- Top/Bottom teeth -->
+      <rect x="-3" y="-40" width="6" height="10" fill="#4FC3F7"/>
+      <rect x="-3" y="30" width="6" height="10" fill="#4FC3F7"/>
+      <!-- Left/Right teeth -->
+      <rect x="-40" y="-3" width="10" height="6" fill="#4FC3F7"/>
+      <rect x="30" y="-3" width="10" height="6" fill="#4FC3F7"/>
+      
+      <!-- Diagonal teeth (8 more) -->
+      <rect x="25" y="-25" width="6" height="10" fill="#4FC3F7" transform="rotate(45)"/>
+      <rect x="-31" y="25" width="6" height="10" fill="#4FC3F7" transform="rotate(45)"/>
+      <rect x="-25" y="-25" width="6" height="10" fill="#4FC3F7" transform="rotate(-45)"/>
+      <rect x="31" y="25" width="6" height="10" fill="#4FC3F7" transform="rotate(-45)"/>
+      
+      <!-- Additional diagonal teeth -->
+      <rect x="17" y="-30" width="5" height="9" fill="#4FC3F7" transform="rotate(22.5)"/>
+      <rect x="-22" y="30" width="5" height="9" fill="#4FC3F7" transform="rotate(22.5)"/>
+      <rect x="30" y="-17" width="5" height="9" fill="#4FC3F7" transform="rotate(67.5)"/>
+      <rect x="-30" y="17" width="5" height="9" fill="#4FC3F7" transform="rotate(67.5)"/>
+      <rect x="-17" y="-30" width="5" height="9" fill="#4FC3F7" transform="rotate(-22.5)"/>
+      <rect x="22" y="30" width="5" height="9" fill="#4FC3F7" transform="rotate(-22.5)"/>
+      <rect x="-30" y="-17" width="5" height="9" fill="#4FC3F7" transform="rotate(-67.5)"/>
+      <rect x="30" y="17" width="5" height="9" fill="#4FC3F7" transform="rotate(-67.5)"/>
+    </g>
+  </g>
+  
+  <!-- Lightning Bolt (Dark Red #B71C1C) -->
+  <path d="M 110 45 L 130 65 L 125 65 L 140 95 L 160 75 L 155 75 L 190 45 Z" fill="#B71C1C"/>
+  
+  <!-- TES Text (White, Bold) -->
+  <text x="150" y="82" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">TES</text>
+  
+  <!-- Bottom Arc (White) -->
+  <path d="M 50 100 Q 150 120 250 100" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+</svg>

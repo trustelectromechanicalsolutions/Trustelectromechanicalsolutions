@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quality & Safety - Trust Electromechanical Solutions Ltd</title>
+    <meta name="description" content="Our commitment to quality and safety standards in all our electromechanical services.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-top">
+                <div class="contact-info">
+                    <span class="phone">📞 +250 795 189 430 / +250 781 514 449</span>
+                </div>
+                <div class="header-social">
+                    <a href="https://www.facebook.com/profile.php?id=61583987307091" class="header-social-icon" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://x.com/NtirivamundaE" class="header-social-icon" aria-label="X (formerly Twitter)" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-x-twitter"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/trust-electromechanical-solution-ltd-285b643a2/" class="header-social-icon" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://www.instagram.com/trustelectromechanicalsolution/" class="header-social-icon" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <nav class="navbar">
+                <a href="index.html" class="logo-button">
+                    <div class="logo">
+                        <img src="img/EVA LOG-2 (1).jpg" alt="Trust Electromechanical Solutions Logo">
+                        <div class="logo-text">
+                            <h2>TRUST</h2>
+                            <p>Electromechanical Solutions Ltd</p>
+                        </div>
+                    </div>
+                </a>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About Us</a></li>
+                    <li class="dropdown">
+                        <a href="services.html" class="nav-link">Services <span></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="service-electrical.html">Electrical Services</a></li>
+                            <li><a href="service-mechanical.html">Mechanical Services</a></li>
+                            <li><a href="service-hvac.html">HVAC Services</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html" class="nav-link">Contact Us</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Quality & Safety</h1>
+            <p>Our commitment to excellence in every project</p>
+        </div>
+    </section>
+
+    <!-- Quality Section -->
+    <section class="quality-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Quality Standards</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">Delivering excellence in every project we undertake</p>
+            </div>
+            <div class="standards-grid">
+                <div class="standard-card">
+                    <div class="standard-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Certified Professionals</h3>
+                    <p>Our team consists of highly trained and certified technicians who adhere to the highest industry standards.</p>
+                </div>
+                <div class="standard-card">
+                    <div class="standard-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Premium Materials</h3>
+                    <p>We use only top-quality materials and equipment from trusted manufacturers for all our services.</p>
+                </div>
+                <div class="standard-card">
+                    <div class="standard-icon">
+                        <i class="fas fa-clipboard-check"></i>
+                    </div>
+                    <h3>Quality Control</h3>
+                    <p>Rigorous quality checks at every stage ensure that our work meets the highest standards.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Safety & Compliance Section -->
+    <section class="safety-section">
+        <div class="container">
+            <div class="safety-content">
+                <div class="safety-text">
+                    <h2>Safety & Compliance</h2>
+                    <p>At Trust Electromechanical Solutions Ltd, safety is our top priority. We implement comprehensive safety measures to protect our team, clients, and property during every project.</p>
+
+                    <ul class="safety-measures">
+                        <li><span>Regular safety training for all team members</span></li>
+                        <li><span>Strict adherence to local safety regulations</span></li>
+                        <li><span>Use of proper personal protective equipment (PPE)</span></li>
+                        <li><span>Regular equipment maintenance and inspection</span></li>
+                        <li><span>Job site hazard assessments</span></li>
+                        <li><span>Emergency response planning</span></li>
+                    </ul>
+                </div>
+                <div class="safety-image">
+                    <img src="img/safety-compliance.jpg" alt="Safety and Compliance - Trust Electromechanical Solutions" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="certifications-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Certifications</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">We are proud to maintain the following certifications and accreditations</p>
+            </div>
+            <div class="certifications-grid">
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>ISO 9001:2015</h3>
+                    <p>Quality Management System</p>
+                </div>
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>OHSAS 18001</h3>
+                    <p>Occupational Health & Safety</p>
+                </div>
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>ISO 14001:2015</h3>
+                    <p>Environmental Management</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready to Experience Quality Service?</h2>
+            <p>Contact us today to discuss your project requirements.</p>
+            <a href="contact.html" class="btn">Contact Us</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Our Services</h3>
+                    <ul>
+                        <li><a href="service-electrical.html">Electrical Services</a></li>
+                        <li><a href="service-mechanical.html">Mechanical Services</a></li>
+                        <li><a href="service-hvac.html">HVAC Services</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Our Services</a></li>
+                        <li><a href="index.html">Home</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="quality-safety.html">Quality & Safety</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=61583987307091" class="social-icon" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://x.com/NtirivamundaE" class="social-icon" aria-label="X (formerly Twitter)" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-x-twitter"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/trust-electromechanical-solution-ltd-285b643a2/" class="social-icon" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://www.instagram.com/trustelectromechanicalsolution/" class="social-icon" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Trust Electromechanical Solutions Ltd. All Rights Reserved</p>
+                <div class="footer-links">
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

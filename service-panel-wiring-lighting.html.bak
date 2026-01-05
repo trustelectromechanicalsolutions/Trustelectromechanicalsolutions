@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel Boards, Wiring & Lighting | Trust Electromechanical Solutions Ltd</title>
+    <link rel="icon" type="image/svg+xml" sizes="any" href="img/EVA LOG-2 (1).png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/service-pages.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="service-electrical">
+    <!-- Header (Same as other pages) -->
+    <header class="header">
+        <div class="container">
+            <div class="header-top">
+                <div class="contact-info">
+                    <span class="phone">📞 +250 795 189 430 / +250 781 514 449</span>
+                </div>
+                <div class="header-social">
+                    <a href="https://www.facebook.com/TrustElectroMech/" class="header-social-icon" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://twitter.com/TrustElectroMech" class="header-social-icon" aria-label="X (formerly Twitter)" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-x-twitter"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/company/trust-electromechanical-solutions/" class="header-social-icon" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://www.instagram.com/trusteletromech/" class="header-social-icon" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <nav class="navbar">
+                <a href="index.html" class="logo-button">
+                    <div class="logo">
+                        <img src="img/EVA LOG-2 (1).jpg" alt="Trust Electromechanical Solutions Logo">
+                        <div class="logo-text">
+                            <h2>TRUST</h2>
+                            <p>Electromechanical Solutions Ltd</p>
+                        </div>
+                    </div>
+                </a>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About Us</a></li>
+                    <li class="dropdown">
+                        <a href="services.html" class="nav-link">Services <span>▼</span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="service-electrical.html">Electrical Services</a></li>
+                            <li><a href="service-mechanical.html">Mechanical Services</a></li>
+                            <li><a href="service-hvac.html">HVAC Services</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html" class="nav-link">Contact Us</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header with Hero Introduction -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Panel Boards, Wiring & Lighting Solutions</h1>
+            <p class="hero-intro">Professional installation and maintenance of electrical panels, wiring systems, and modern lighting solutions for residential, commercial, and industrial properties across Rwanda.</p>
+        </div>
+    </section>
+
+    <!-- Service Overview -->
+    <section class="service-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Service Overview</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="service-overview">
+                <div class="service-image">
+                    <img src="img/panel-boars-12.jpg" alt="Panel Boards, Wiring & Lighting" class="image-placeholder">
+                </div>
+                <div class="service-description">
+                    <p>At Trust Electromechanical Solutions, we specialize in comprehensive electrical distribution and lighting solutions. Our expert team designs and installs reliable panel boards, efficient wiring systems, and modern lighting solutions that meet the highest industry standards. Whether you're building new or upgrading existing systems, we deliver safe, code-compliant installations that enhance both functionality and aesthetics.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Offered -->
+    <section class="service-section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Panel, Wiring & Lighting Services</h2>
+                <div class="section-divider"></div>
+                <p>Complete solutions for all your electrical distribution and lighting needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Panel Boards & Distribution</h3>
+                    <ul>
+                        <li>Main distribution board (MDB) installation</li>
+                        <li>Sub-distribution board (SDB) setup</li>
+                        <li>Consumer unit upgrades</li>
+                        <li>Circuit breaker installations</li>
+                        <li>Surge protection devices</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <h3>Wiring Solutions</h3>
+                    <ul>
+                        <li>Complete house wiring</li>
+                        <li>Rewiring and upgrades</li>
+                        <li>Concealed and surface wiring</li>
+                        <li>Data and communication cabling</li>
+                        <li>Structured cabling systems</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <h3>Lighting Solutions</h3>
+                    <ul>
+                        <li>LED lighting installation</li>
+                        <li>Energy-efficient lighting design</li>
+                        <li>Emergency lighting systems</li>
+                        <li>Outdoor & landscape lighting</li>
+                        <li>Smart lighting controls</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Grid -->
+    <section class="services-grid-section">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-item">
+                    <i class="fas fa-th-large"></i>
+                    <h3>Panel Board Installation</h3>
+                    <ul>
+                        <li>Main distribution boards (MDB)</li>
+                        <li>Sub-distribution boards (SDB)</li>
+                        <li>Consumer units</li>
+                        <li>Panel board upgrades</li>
+                    </ul>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-plug"></i>
+                    <h3>Electrical Wiring</h3>
+                    <ul>
+                        <li>New construction wiring</li>
+                        <li>Rewiring services</li>
+                        <li>Conduit and trunking systems</li>
+                        <li>Data and communication cabling</li>
+                    </ul>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-lightbulb"></i>
+                    <h3>Lighting Solutions</h3>
+                    <ul>
+                        <li>Indoor & outdoor lighting</li>
+                        <li>LED retrofitting</li>
+                        <li>Emergency lighting systems</li>
+                        <li>Lighting control systems</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-choose-us">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Choose Our Services</h2>
+                <div class="section-divider"></div>
+                <p>Your trusted partner for electrical distribution and lighting in Rwanda</p>
+            </div>
+            <div class="reasons-grid">
+                <div class="reason">
+                    <div class="reason-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Certified Electricians</h3>
+                    <p>Our team holds advanced certifications in electrical installations and stays current with the latest Rwandan electrical codes and international standards.</p>
+                </div>
+                <div class="reason">
+                    <div class="reason-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Safety First</h3>
+                    <p>We prioritize safety in every installation, following strict protocols to protect your property and our team members during all electrical work.</p>
+                </div>
+                <div class="reason">
+                    <div class="reason-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Energy Efficient</h3>
+                    <p>We design and install energy-efficient solutions that reduce your carbon footprint and lower your electricity bills without compromising performance.</p>
+                </div>
+                <div class="reason">
+                    <div class="reason-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Quality Guarantee</h3>
+                    <p>We stand behind our work with comprehensive warranties and use only premium materials from trusted manufacturers in all our installations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Safety & Compliance Section -->
+    <section class="safety-section">
+        <div class="container">
+            <div class="safety-content">
+                <div class="safety-text">
+                    <h2>Safety & Compliance</h2>
+                    <p>At Trust Electromechanical Solutions, we are committed to the highest standards of electrical safety and regulatory compliance in all our panel board, wiring, and lighting installations.</p>
+
+                    <ul class="safety-measures">
+                        <li><span>Rwanda Utility Regulatory Authority (RURA) regulations</span></li>
+                        <li><span>International Electrotechnical Commission (IEC) standards</span></li>
+                        <li><span>Institute of Electrical and Electronics Engineers (IEEE) guidelines</span></li>
+                        <li><span>National Electrical Code (NEC) requirements</span></li>
+                        <li><span>Local building and electrical codes</span></li>
+                        <li><span>Regular safety training for all installation teams</span></li>
+                    </ul>
+                </div>
+                <div class="safety-image">
+                    <img src="img/safety-compliance.jpg" alt="Electrical Safety Standards" class="image-placeholder">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Upgrade Your Electrical Systems?</h2>
+                <p>Contact us today to schedule a consultation with our electrical experts. We'll assess your needs and provide a detailed, no-obligation quote for your panel board, wiring, or lighting project.</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn btn-primary">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (Same as other pages) -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Our Services</h3>
+                    <ul>
+                        <li><a href="service-electrical.html">Electrical Services</a></li>
+                        <li><a href="service-mechanical.html">Mechanical Services</a></li>
+                        <li><a href="service-hvac.html">HVAC Services</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="index.html">Home</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="quality-safety.html">Quality & Safety</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=61583987307091" class="social-icon" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://twitter.com/TrustElectroMech" class="social-icon" aria-label="X (formerly Twitter)" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-x-twitter"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/company/trust-electromechanical-solutions/" class="social-icon" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://www.instagram.com/trusteletromech/" class="social-icon" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Trust Electromechanical Solutions Ltd. All Rights Reserved</p>
+                <div class="footer-links">
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="js/scroll-to-top.js"></script>
+</body>
+</html>

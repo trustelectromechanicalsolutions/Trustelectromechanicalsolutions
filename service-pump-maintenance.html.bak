@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pump Installation & Maintenance | Trust Electromechanical Solutions Ltd</title>
+    <link rel="icon" type="image/svg+xml" sizes="any" href="img/EVA LOG-2 (1).png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/service-pages.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="service-pump-maintenance">
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-top">
+                <div class="contact-info">
+                    <span class="phone">📞 +250 795 189 430 / +250 781 514 449</span>
+                </div>
+                <div class="header-social">
+                    <a href="https://www.facebook.com/TrustElectroMech/" class="header-social-icon" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://twitter.com/TrustElectroMech" class="header-social-icon" aria-label="X (formerly Twitter)" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-x-twitter"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/company/trust-electromechanical-solutions/" class="header-social-icon" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://www.instagram.com/trusteletromech/" class="header-social-icon" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <nav class="navbar">
+                <a href="index.html" class="logo-button">
+                    <div class="logo">
+                        <img src="img/EVA LOG-2 (1).jpg" alt="Trust Electromechanical Solutions Logo">
+                        <div class="logo-text">
+                            <h2>TRUST</h2>
+                            <p>Electromechanical Solutions Ltd</p>
+                        </div>
+                    </div>
+                </a>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About Us</a></li>
+                    <li class="dropdown">
+                        <a href="services.html" class="nav-link">Services <span>▼</span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="service-electrical.html">Electrical Services</a></li>
+                            <li><a href="service-mechanical.html">Mechanical Services</a></li>
+                            <li><a href="service-hvac.html">HVAC Services</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html" class="nav-link">Contact Us</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header with Hero Introduction -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Pump Installation & Maintenance</h1>
+            <p class="hero-intro">Professional installation, maintenance, and repair of pump systems to ensure reliable water supply and fluid handling for your residential, commercial, or industrial property in Rwanda.</p>
+        </div>
+    </section>
+
+    <!-- Service Overview -->
+    <section class="service-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Service Overview</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="service-overview">
+                <div class="service-image">
+                    <img src="img/pump ins.webp" alt="Pump Installation & Maintenance" class="image-placeholder">
+                </div>
+                <div class="service-description">
+                    <p>At Trust Electromechanical Solutions, we specialize in comprehensive pump installation, maintenance, and repair services. Our certified technicians ensure your water supply and fluid handling systems operate at peak efficiency. We work with all types of pumps including submersible, centrifugal, and booster pumps, delivering reliable solutions tailored to your specific requirements.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Offered -->
+    <section class="service-section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Pump Services</h2>
+                <div class="section-divider"></div>
+                <p>Complete solutions for all your pumping needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Pump Installation</h3>
+                    <ul>
+                        <li>Submersible pump installation</li>
+                        <li>Centrifugal pump setup</li>
+                        <li>Booster pump systems</li>
+                        <li>Sump pump installation</li>
+                        <li>Piping and valve installation</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <h3>Maintenance Services</h3>
+                    <ul>
+                        <li>Routine maintenance programs</li>
+                        <li>Preventive maintenance</li>
+                        <li>Performance testing</li>
+                        <li>Efficiency optimization</li>
+                        <li>System inspections</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <h3>Repair & Troubleshooting</h3>
+                    <ul>
+                        <li>Emergency repairs</li>
+                        <li>Motor repairs</li>
+                        <li>Seal and bearing replacement</li>
+                        <li>Pressure issues</li>
+                        <li>24/7 emergency service</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Grid -->
+    <section class="services-grid-section">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-item">
+                    <i class="fas fa-tools"></i>
+                    <h3>Pump Installation</h3>
+                    <ul>
+                        <li>Professional installation</li>
+                        <li>Proper alignment</li>
+                        <li>System configuration</li>
+                        <li>Testing & commissioning</li>
+                    </ul>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-cogs"></i>
+                    <h3>Maintenance</h3>
+                    <ul>
+                        <li>Routine servicing</li>
+                        <li>Preventive maintenance</li>
+                        <li>Performance checks</li>
+                        <li>Efficiency optimization</li>
+                    </ul>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-wrench"></i>
+                    <h3>Repairs</h3>
+                    <ul>
+                        <li>24/7 emergency service</li>
+                        <li>Motor repairs</li>
+                        <li>Component replacement</li>
+                        <li>System restoration</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-choose-us">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Choose Our Services</h2>
+                <div class="section-divider"></div>
+                <p>Your trusted partner for pump solutions in Rwanda</p>
+            </div>
+            <div class="reasons-grid">
+                <div class="reason">
+                    <div class="reason-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Certified Technicians</h3>
+                    <p>Our team holds advanced certifications in pump installation and maintenance, ensuring your systems are serviced by qualified professionals.</p>
+                </div>
+                <div class="reason">
+                    <div class="reason-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Safety First</h3>
+                    <p>We follow strict safety protocols and industry best practices to ensure all work is performed safely and to the highest standards.</p>
+                </div>
+                <div class="reason">
+                    <div class="reason-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Quality Workmanship</h3>
+                    <p>We take pride in delivering superior craftsmanship and attention to detail in every installation, maintenance, and repair.</p>
+                </div>
+                <div class="reason">
+                    <div class="reason-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>24/7 Emergency Service</h3>
+                    <p>Pump failures don't wait for business hours, and neither do we. Our team is available around the clock for emergency repairs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Safety & Compliance Section -->
+    <section class="safety-section">
+        <div class="container">
+            <div class="safety-content">
+                <div class="safety-text">
+                    <h2>Safety & Compliance</h2>
+                    <p>At Trust Electromechanical Solutions, we are committed to the highest standards of safety and regulatory compliance in all our pump services.</p>
+
+                    <ul class="safety-measures">
+                        <li><span>Rwanda Utility Regulatory Authority (RURA) regulations</span></li>
+                        <li><span>International standards for pump installation and maintenance</span></li>
+                        <li><span>Occupational Safety and Health Administration (OSHA) guidelines</span></li>
+                        <li><span>Manufacturer specifications and requirements</span></li>
+                        <li><span>Local building and plumbing codes</span></li>
+                        <li><span>Regular safety training for all technical staff</span></li>
+                    </ul>
+                </div>
+                <div class="safety-image">
+                    <img src="img/safety-compliance.jpg" alt="Pump Safety Standards" class="image-placeholder">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Need Professional Pump Services?</h2>
+                <p>Contact us today to schedule a consultation with our pump system experts. We'll assess your needs and provide a detailed, no-obligation quote for your project.</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn btn-primary">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Our Services</h3>
+                    <ul>
+                        <li><a href="service-electrical.html">Electrical Services</a></li>
+                        <li><a href="service-mechanical.html">Mechanical Services</a></li>
+                        <li><a href="service-hvac.html">HVAC Services</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="index.html">Home</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="quality-safety.html">Quality & Safety</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=61583987307091" class="social-icon" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://twitter.com/TrustElectroMech" class="social-icon" aria-label="X (formerly Twitter)" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-x-twitter"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/company/trust-electromechanical-solutions/" class="social-icon" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://www.instagram.com/trusteletromech/" class="social-icon" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Trust Electromechanical Solutions Ltd. All Rights Reserved</p>
+                <div class="footer-links">
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="js/scroll-to-top.js"></script>
+</body>
+</html>

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AC Installation Services | Trust Electromechanical Solutions Ltd</title>
+    <link rel="icon" type="image/svg+xml" sizes="any" href="img/EVA LOG-2 (1).png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/service-pages.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="service-ac-installation">
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-top">
+                <div class="contact-info">
+                    <span class="phone">📞 +250 795 189 430 / +250 781 514 449</span>
+                </div>
+                <div class="header-social">
+                    <a href="https://www.facebook.com/TrustElectroMech/" class="header-social-icon" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://twitter.com/TrustElectroMech" class="header-social-icon" aria-label="X (formerly Twitter)" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-x-twitter"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/company/trust-electromechanical-solutions/" class="header-social-icon" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://www.instagram.com/trusteletromech/" class="header-social-icon" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <nav class="navbar">
+                <a href="index.html" class="logo-button">
+                    <div class="logo">
+                        <img src="img/EVA LOG-2 (1).jpg" alt="Trust Electromechanical Solutions Logo">
+                        <div class="logo-text">
+                            <h2>TRUST</h2>
+                            <p>Electromechanical Solutions Ltd</p>
+                        </div>
+                    </div>
+                </a>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About Us</a></li>
+                    <li class="dropdown">
+                        <a href="services.html" class="nav-link">Services <span>▼</span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="service-electrical.html">Electrical Services</a></li>
+                            <li><a href="service-mechanical.html">Mechanical Services</a></li>
+                            <li><a href="service-hvac.html">HVAC Services</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html" class="nav-link">Contact Us</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header with Hero Introduction -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Professional AC Installation Services</h1>
+            <p class="hero-intro">Expert installation of air conditioning systems for residential, commercial, and industrial properties in Rwanda. We ensure optimal cooling performance and energy efficiency.</p>
+        </div>
+    </section>
+
+    <!-- Service Overview -->
+    <section class="service-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Service Overview</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="service-overview">
+                <div class="service-image">
+                    <img src="img/ac-install.jpg" alt="Professional AC Installation" class="image-placeholder">
+                </div>
+                <div class="service-description">
+                    <p>At Trust Electromechanical Solutions, we provide professional AC installation services that ensure optimal performance and energy efficiency. Our certified technicians are experienced in installing all types of air conditioning systems, from split units to central air conditioning. We assess your space, recommend the best cooling solution, and provide expert installation that meets industry standards.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Offered -->
+    <section class="service-section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our AC Installation Services</h2>
+                <div class="section-divider"></div>
+                <p>Comprehensive cooling solutions tailored to your needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Residential AC Installation</h3>
+                    <ul>
+                        <li>Split system air conditioners</li>
+                        <li>Ductless mini-split systems</li>
+                        <li>Window unit installation</li>
+                        <li>Multi-zone cooling solutions</li>
+                        <li>Smart thermostat integration</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <h3>Commercial AC Installation</h3>
+                    <ul>
+                        <li>VRF/VRV systems</li>
+                        <li>Roof-top units</li>
+                        <li>Chilled water systems</li>
+                        <li>Ducted systems</li>
+                        <li>Packaged terminal AC units</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <h3>Specialized Services</h3>
+                    <ul>
+                        <li>Energy efficiency assessments</li>
+                        <li>Load calculations</li>
+                        <li>Ductwork design and installation</li>
+                        <li>System upgrades and retrofits</li>
+                        <li>Warranty registration</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-choose-us">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Choose Our AC Installation Services</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="features-grid">
+                <div class="feature">
+                    <i class="fas fa-certificate"></i>
+                    <h3>Certified Technicians</h3>
+                    <p>Our team consists of factory-trained and certified AC installation experts who stay updated with the latest technologies and best practices in the industry.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Energy Efficient</h3>
+                    <p>We prioritize energy-efficient installations that help reduce your carbon footprint and lower your energy bills while maintaining optimal comfort.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Warranty Protection</h3>
+                    <p>All our installations come with comprehensive warranties, and we ensure proper registration of your equipment to maintain manufacturer coverage.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready for a Cooler, More Comfortable Space?</h2>
+                <p>Contact us today for a free consultation and quote on your AC installation needs.</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn btn-primary">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Our Services</h3>
+                    <ul>
+                        <li><a href="service-electrical.html">Electrical Services</a></li>
+                        <li><a href="service-mechanical.html">Mechanical Services</a></li>
+                        <li><a href="service-hvac.html">HVAC Services</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="index.html">Home</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="quality-safety.html">Quality & Safety</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=61583987307091" class="social-icon" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://twitter.com/TrustElectroMech" class="social-icon" aria-label="X (formerly Twitter)" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-x-twitter"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/company/trust-electromechanical-solutions/" class="social-icon" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://www.instagram.com/trusteletromech/" class="social-icon" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Trust Electromechanical Solutions Ltd. All Rights Reserved</p>
+                <div class="footer-links">
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="js/scroll-to-top.js"></script>
+</body>
+</html>
